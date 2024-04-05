@@ -11,7 +11,7 @@ export default function Input({
 
 {
   return (
-    <div className={style.form_control}>
+    <div className={style.input_control}>
       <label htmlFor={name}>{text}</label>
       <input
         type={type}

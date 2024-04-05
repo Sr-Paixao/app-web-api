@@ -1,15 +1,18 @@
-.input_control{
+.select_control{
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
 }
 
-.input_control label{
+.select_control label{
     padding: .7em;
     border-radius: 0;
     border: none;
 }
 
-.input_control input::placeholder{
+.select_control select{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
     color: #7b7b7b;
 }

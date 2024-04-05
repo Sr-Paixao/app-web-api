@@ -1,0 +1,29 @@
+{
+    "books": [],
+    "categories": [
+        {
+            "id": 1,
+            "name": "ficçao cientifica"
+        },
+
+        {
+            "id": 2,
+            "name": "Back-End"
+        },
+
+        {
+            "id": 3,
+            "name": "Front end"
+        },
+
+        {
+            "id": 4,
+            "name": "Banco de Dados"
+        },
+
+        {
+            "id": 5,
+            "name": "Computaçao em cloud"
+        }
+    ]
+}

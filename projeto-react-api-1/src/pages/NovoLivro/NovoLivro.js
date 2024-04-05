@@ -1,8 +1,34 @@
+import { useState, useEffect } from 'react'
+
 import Input from '../../components/Input/Input'
+import Select from '../../components/Select/Select'
 
 import styles from './NovoLivro.module.css'
 
 export default function NovoLivro() {
+  const [categories, setCategories] = useState([])
+
+
+
+useEffect(()=>{
+  fetch('http://localhost:5000/categories', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'aplication/json',
+    },
+  })
+
+    .then((response) =>response.json())
+    .then(
+      (data)=>{setCategories(data)
+      console.log(data)
+      }
+    )
+
+    .catch((error) => {
+      console.log(error)
+    })
+},[])
   return (
     <section className={styles.novolivros_container}>
       <h1>Cadastre livro</h1>
@@ -32,6 +58,8 @@ export default function NovoLivro() {
           text="digite a descricao do livro"
         />
 
+        <Select name="categoria-id" text="selecione a categoria do livro" options={categories}/>
+
         {/* <p>
           <input type="text" placeholder="Nome do livro" id="" />
         </p>
@@ -42,11 +70,11 @@ export default function NovoLivro() {
 
         <p>
           <input type="text" placeholder="Descriçao do livro" id="" />
-        </p>
+        </p> */}
 
         <p>
           <button type="submit">Enviar</button>
-        </p> */}
+        </p>
       </form>
     </section>
   )
