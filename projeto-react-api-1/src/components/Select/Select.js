@@ -10,7 +10,7 @@ export default function Select({
   return (
     <div className={style.select_control}>
       <label htmlFor={name}>{text}</label>
-      <select name={name} id={name}>
+      <select name={name} id={name} onChange={handlerOnChange}>
         <option>Selecione uma categoria</option>
             {
                 options.map((option)=>(
