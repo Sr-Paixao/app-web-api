@@ -60,7 +60,7 @@ export default function NovoLivro() {
         .then((response) => response.json())
         .then((data) => {
           console.log(data)
-          navigate('/livros')
+          navigate('/livros', {state: 'lixo'})
         })
         .catch((error) => {
           console.log(error)
