@@ -1,26 +1,27 @@
-.livros_container{
+.home_container{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 4em;
-    background-color: grey;
+    background-color: #fff;
 }
 
-.livros_container h1{
+.home_container h1{
     font-size: 2.5em;
     margin-bottom: .5em;
+
 }
 
-.livros_container h1 span{
-    color: #7733ff;
+.home_container h1 span{
+    color: blueviolet;
     padding: 0 .2em;
-
 }
 
-.livros_container img{
+.home_container img{
     width: 350px;
     margin: 2em 0;
 }
+

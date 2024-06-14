@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": "16ee",
+      "nome_livro": "Roberto123",
+      "autor": "teste sem teste123",
+      "descricao": "123123",
+      "categories": {
+        "id": "2",
+        "categories": "TUDO SOBRE TOPLANE"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "META DO LOLZINHO"
+    },
+    {
+      "id": "2",
+      "name": "TUDO SOBRE TOPLANE"
+    },
+    {
+      "id": "3",
+      "name": "TUDO SOBRE A JUNGLE"
+    },
+    {
+      "id": "4",
+      "name": "TUDO SOBRE A MIDLANE"
+    },
+    {
+      "id": "5",
+      "name": "TUDO SOBRE A BOTLANE"
+    },
+    {
+      "id": "6",
+      "name": "LORE e MAIS"
+    },
+    {
+      "id": "7",
+      "name": "trollface"
+    }
+  ]
+}

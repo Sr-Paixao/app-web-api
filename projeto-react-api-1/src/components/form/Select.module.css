@@ -1,18 +1,18 @@
-.select_control{
+.form_control{
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
 }
 
-.select_control label{
+.form_control label{
     padding: .7em;
     border-radius: 0;
     border: none;
 }
 
-.select_control select{
+.form_control select {
+    color: #7b7b7b;
     padding: .7em;
     border-radius: 0;
     border: none;
-    color: #7b7b7b;
 }

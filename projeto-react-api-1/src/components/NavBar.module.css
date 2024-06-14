@@ -10,8 +10,8 @@
 }
 
 .item a{
-    color: black;
-    text-decoration: none;
+    color: #000;
+    text-decoration: none
 }
 
 .item a:hover{

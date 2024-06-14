@@ -1,15 +1,16 @@
-.input_control{
+.form_control{
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
 }
 
-.input_control label{
+.form_control label{
     padding: .7em;
     border-radius: 0;
     border: none;
 }
 
-.input_control input::placeholder{
+.form_control input::placeholder{
     color: #7b7b7b;
 }
+
